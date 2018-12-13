@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Centralno</string>
+    <string name="spoji_se">SPOJI SE</string>
+    <string name="upareni_ure_aji">Upareni uređaji:</string>
+    <string name="gre_ke">GREŠKE</string>
+    <string name="izvje_e">STATUS</string>
+    <string name="odspoji">ODSPOJI</string>
+    <string name="temperatura">TEMPERATURA +</string>
+    <string name="temperaturamin">TEMPERATURA -</string>
+    <string name="pritisnite_gumb_nako_ispis_nije_potpun_ili_ga_nema_ponovno_nstisnite_gumb">Pritisnite gumb!\nAko ispis nije potpun ili ga nema ponovno\nstisnite gumb.</string>
+</resources>

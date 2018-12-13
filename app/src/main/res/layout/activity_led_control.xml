@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_led_control"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.jura.centralno.CentralnoControl">
+
+    <Button
+        android:text="@string/izvje_e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/my_button"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/temperaturamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/my_button"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/my_button"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/gre_ke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:background="@drawable/my_button"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/prikaz_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:background="@color/colorPrimaryDark"
+        android:padding="4dp"
+        android:text="@string/pritisnite_gumb_nako_ispis_nije_potpun_ili_ga_nema_ponovno_nstisnite_gumb"
+
+        android:textAppearance="@android:style/TextAppearance.Large.Inverse" />
+
+    <Button
+        android:text="@string/odspoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:background="@drawable/my_button"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+</LinearLayout>
